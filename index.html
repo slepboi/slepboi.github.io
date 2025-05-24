@@ -13,29 +13,46 @@
             padding: 0;
             line-height: 1.6;
         }
+
         header {
-            background: #333;
+            background: url('beachbackground.jpg') no-repeat center center;
+            background-size: cover;
             color: #fff;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
         }
+
         nav {
             margin: 1rem 0;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 1rem;
         }
+
         section {
             padding: 2rem;
             border-bottom: 1px solid #ddd;
         }
+
         footer {
             text-align: center;
             padding: 1rem;
             background: #333;
             color: #fff;
+        }
+
+        /* Optional: Style for certificate images */
+        .credential-image {
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -55,8 +72,7 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            <!-- Add a brief introduction about yourself here -->
-            Hello! My name is Steven Nguyen. I am passionate about overcoming projects that allow me to learn more as I progress. 
+            Hello! My name is Steven Nguyen. I evoke a growing passion to learn new things and enjoy the time I still have with friends and family.
             Welcome to my portfolio website!
         </p>
     </section>
@@ -65,7 +81,6 @@
     <section id="projects">
         <h2>Projects</h2>
         <p>
-            <!-- Add a list or description of your projects here -->
             Here are some of the projects I have worked on:
         </p>
         <ul>
@@ -78,14 +93,22 @@
     <section id="credentials">
         <h2>Credentials</h2>
         <p>
-            <!-- Add your credentials, certifications, or achievements here -->
             I have earned the following certifications and achievements:
         </p>
         <ul>
-            <li>Certification 1: AP Scholar Award [Taken and passed 3+ AP Exams]</li>
-            <li>Certification 2: VAYA Leadership Award [Guide A Trash Clean-Up Team of 10+ Volunteers]</li>
-            <li>Certification 3: 3x High Honor Roll [Maintain a 4.0 GPA Or Higher For A Whole Semester]</li>
-            <!-- Add images of your certification digital badges -->
+            <li>
+                Certification 1: AP Scholar Award [Taken and passed 3+ AP Exams]
+                <br>
+                <img src="APScholarAward.png" alt="AP Scholar Award Certificate" class="credential-image" width="400">
+            </li>
+            <li>
+                Certification 2: VAYA Leadership Award [Guide A Trash Clean-Up Team of 10+ Volunteers]
+            </li>
+            <li>
+                Certification 3: 3x High Honor Roll [Maintain a 4.0 GPA Or Higher For A Whole Semester]
+                <br>
+                <img src="Honor Roll.jpg" alt="High Honor Roll Certificate" class="credential-image" width="400">
+            </li>
         </ul>
     </section>
 
@@ -93,7 +116,6 @@
     <section id="contact">
         <h2>Contact Info</h2>
         <p>
-            <!-- Add your contact information here -->
             Feel free to reach out to me:
         </p>
         <ul>
